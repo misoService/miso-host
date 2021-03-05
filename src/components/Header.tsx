@@ -88,6 +88,18 @@ const Header: React.FC = () => (
                 href="https://server.misohost.com/register.html"
                 className="px-3 py-2 text-sm font-medium text-white"
               >
+                ご利用の流れ
+              </a>
+              <a
+                href="https://server.misohost.com/register.html"
+                className="px-3 py-2 text-sm font-medium text-white"
+              >
+                プラン一覧
+              </a>
+              <a
+                href="https://server.misohost.com/register.html"
+                className="px-3 py-2 text-sm font-medium text-white"
+              >
                 アカウント登録
               </a>
               <a
