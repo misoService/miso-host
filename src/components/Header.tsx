@@ -85,13 +85,13 @@ const Header: React.FC = () => (
                   </a>
                 </Link> */}
               <a
-                href="https://server.misohost.com/register.html"
+                href="https://qa.misohost.com/flow/"
                 className="px-3 py-2 text-sm font-medium text-white"
               >
                 ご利用の流れ
               </a>
               <a
-                href="https://server.misohost.com/register.html"
+                href="https://qa.misohost.com/plan-list/"
                 className="px-3 py-2 text-sm font-medium text-white"
               >
                 プラン一覧

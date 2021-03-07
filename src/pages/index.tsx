@@ -136,6 +136,8 @@ const HomePage: NextPage<HomePageProps> = ({ qas }) => (
               まずは始めてみたいという方へ、当サービスがおすすめするプランをご用意いたしました
             </p>
 
+            <p> Minecraft Java Edition </p>
+
             <div className="flex flex-wrap items-center justify-center py-4 pt-0">
               <Plan
                 planName="1GBプラン"
