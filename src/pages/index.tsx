@@ -136,7 +136,7 @@ const HomePage: NextPage<HomePageProps> = ({ qas }) => (
               まずは始めてみたいという方へ、当サービスがおすすめするプランをご用意いたしました
             </p>
 
-            <p className="text-center text-steel-500 md:text-xl"> Minecraft Java Edition </p>
+            <p className="text-center text-steel-500 md:text-xl"> Minecraft Java Editionサーバー </p>
 
             <div className="flex flex-wrap items-center justify-center py-4 pt-0">
               <Plan
@@ -164,6 +164,11 @@ const HomePage: NextPage<HomePageProps> = ({ qas }) => (
                 storage="20"
               />
             </div>
+            <a
+              href="https://qa.misohost.com/plan-list/"
+              className="text-righti text-steel-500"
+            >
+              >全てのプランを見る
           </div>
         </FadeInUp>
       </section>
