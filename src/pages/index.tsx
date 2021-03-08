@@ -169,6 +169,7 @@ const HomePage: NextPage<HomePageProps> = ({ qas }) => (
               className="text-righti text-steel-500"
             >
               全てのプランを見る
+            </a>
           </div>
         </FadeInUp>
       </section>
