@@ -136,7 +136,7 @@ const HomePage: NextPage<HomePageProps> = ({ qas }) => (
               まずは始めてみたいという方へ、当サービスがおすすめするプランをご用意いたしました
             </p>
 
-            <p className="text-center text-steel-500"> Minecraft Java Edition </p>
+            <p className="text-center text-steel-500 md:text-xl"> Minecraft Java Edition </p>
 
             <div className="flex flex-wrap items-center justify-center py-4 pt-0">
               <Plan
