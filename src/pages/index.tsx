@@ -166,7 +166,7 @@ const HomePage: NextPage<HomePageProps> = ({ qas }) => (
             </div>
             <a
               href="https://qa.misohost.com/plan-list/"
-              className="text-right text-steel-500"
+              className="text-center text-steel-500"
             >
               全てのプランを見る
             </a>
