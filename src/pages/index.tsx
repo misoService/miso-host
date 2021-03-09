@@ -164,7 +164,7 @@ const HomePage: NextPage<HomePageProps> = ({ qas }) => (
                 storage="20"
               />
             </div>
-            <p className="px-30 text-right text-steel-500">
+            <p className="text-center text-steel-500">
               ※表示価格は全て税込です。
             <a
               href="https://qa.misohost.com/plan-list/"
