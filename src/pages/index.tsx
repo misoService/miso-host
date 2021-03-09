@@ -163,13 +163,14 @@ const HomePage: NextPage<HomePageProps> = ({ qas }) => (
                 memory="4"
                 storage="20"
               />
+            </div>
+            <p className="text-center text-steel-500">
             <a
               href="https://qa.misohost.com/plan-list/"
-              className="text-center text-steel-500"
             >
               全てのプランを見る
             </a>
-            </div>
+            </p>
           </div>
         </FadeInUp>
       </section>
