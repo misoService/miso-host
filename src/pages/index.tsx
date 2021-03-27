@@ -109,7 +109,7 @@ const HomePage: NextPage<HomePageProps> = ({ qas }) => (
                 ファイルマネージャーも完備
               </h2>
               <p className="text-lg text-gray-700">
-                ブラウザでのファイル送受信はもちろん、FTPによるファイル送受信も可能。
+                ブラウザでのファイル送受信はもちろん、SFTPによるファイル送受信も可能。
               </p>
             </div>
 
