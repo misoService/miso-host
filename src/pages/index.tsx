@@ -28,7 +28,7 @@ const HomePage: NextPage<HomePageProps> = ({ qas }) => (
             iconUrl="https://img.icons8.com/ultraviolet/80/000000/mobile-payment.png"
             className="col-span-4 lg:col-auto"
             title="PayPal決済対応"
-            description={`PayPal決済で、ラクラク決済。\nクレジットカード、口座振替に対応!`}
+            description={`PayPal決済で、ラクラク決済。\nクレジットカード、\n口座振替に対応!`}
           />
           <Card
             delay={50}
