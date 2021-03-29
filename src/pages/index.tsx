@@ -9,11 +9,15 @@ import QA from '@/components/QA';
 import ZoomableImage from '@/components/ZoomableImage';
 import DocumentMeta from 'react-document-meta';
 
+
 type HomePageProps = {
   qas: [];
 };
 
-
+const meta = {
+  title: "MisoHost - １時間から使えるゲームサーバー",
+  description: "MisoHostは身内サーバーに最適！１時間から利用可能。サーバーの利用、操作も全てブラウザで完結！困った時のQ&Aやお問い合わせフォームも利用できます。",
+};
 
 /* eslint-disable react/no-array-index-key */
 const HomePage: NextPage<HomePageProps> = ({ qas }) => (
