@@ -7,10 +7,13 @@ import { FadeInUp } from '@/components/FadeInUp';
 import { fetchEntries, QAType } from '@/api';
 import QA from '@/components/QA';
 import ZoomableImage from '@/components/ZoomableImage';
+import DocumentMeta from 'react-document-meta';
 
 type HomePageProps = {
   qas: [];
 };
+
+
 
 /* eslint-disable react/no-array-index-key */
 const HomePage: NextPage<HomePageProps> = ({ qas }) => (
