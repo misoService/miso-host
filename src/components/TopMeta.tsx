@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-const PageHeader = props => {
+const TopMeta = props => {
   return (
     <div className="application">
       <Helmet>
