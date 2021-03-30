@@ -22,8 +22,13 @@ const meta = {
 /* eslint-disable react/no-array-index-key */
 const HomePage: NextPage<HomePageProps> = ({ qas }) => (
   // console.log(qas);
-  <TopMeta />
+
   <Layout>
+    <TopMeta
+    title="MisoHost - １時間から使えるゲームサーバー"
+    description="MisoHostは身内サーバーに最適！１時間から利用可能。サーバーの利用、操作も全てブラウザで完結！困った時のQ&Aやお問い合わせフォームも利用できます。"
+  />
+
     <div className="flex flex-col items-center w-full">
       <section className="container mx-auto mt-24 mb-16">
         <h1 className="mb-16 text-5xl font-bold text-center text-gray-900">
