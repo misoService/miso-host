@@ -22,6 +22,7 @@ const meta = {
 /* eslint-disable react/no-array-index-key */
 const HomePage: NextPage<HomePageProps> = ({ qas }) => (
   // console.log(qas);
+  <TopMeta />
   <Layout>
     <div className="flex flex-col items-center w-full">
       <section className="container mx-auto mt-24 mb-16">
