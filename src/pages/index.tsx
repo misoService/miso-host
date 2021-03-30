@@ -8,7 +8,7 @@ import { fetchEntries, QAType } from '@/api';
 import QA from '@/components/QA';
 import ZoomableImage from '@/components/ZoomableImage';
 import DocumentMeta from 'react-document-meta';
-
+import TopMeta from '@/components/TopMeta';
 
 type HomePageProps = {
   qas: [];
